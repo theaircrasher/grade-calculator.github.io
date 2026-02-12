@@ -170,6 +170,16 @@
             transform: scale(1.05);
         }
 
+        .copyright {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.75em;
+            text-align: center;
+        }
+
         @media (max-width: 768px) {
             .content {
                 grid-template-columns: 1fr;
@@ -183,6 +193,7 @@
 </head>
 <body>
     <button class="lang-toggle" id="langToggle">🇩🇪 Deutsch</button>
+    <div class="copyright">© 2026 Christian Pendl</div>
     <div class="container">
         <h1 id="pageTitle">📊 Grade Spider Diagram</h1>
         <div class="content">
